@@ -11057,26 +11057,26 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 		};
 	},
 	mounted() {
-		if (this.$route.path == '/' || this.$route.path == '/register') {
+		//   if(this.$route.path=='/' || this.$route.path=='/register'){
 
-			this.show = false;
-		} else {
+		// 		this.show=false
+		// 	}else{
 
-			this.show = true;
-		}
+		// 		this.show=true
+		// 	}
 	},
 	components: {
 		'my-bar': __WEBPACK_IMPORTED_MODULE_5__components_Bar___default.a
 	},
 	watch: {
-		'$route'(to, from) {
-			if (to.path == '/' || to.path == '/register') {
-				this.show = false;
-			} else {
+		//     '$route' (to,from) {
+		// 		if(to.path == '/' || to.path == '/register'){ 
+		//    			this.show=false
+		//   }else{ 
 
-				this.show = true;
-			}
-		}
+		//     this.show=true
+		//   }  
+		// 	}
 	}
 };
 
@@ -24017,4 +24017,4 @@ new __WEBPACK_IMPORTED_MODULE_0_vue__["a" /* default */]({
 
 /***/ })
 ],[52]);
-//# sourceMappingURL=app.369a084c80c6c832b286.js.map
+//# sourceMappingURL=app.9cc188376c27d01a18d9.js.map
